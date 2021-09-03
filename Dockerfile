@@ -5,3 +5,5 @@ COPY . /src/
 
 RUN yarn install
 RUN npm i -g @confio/relayer
+
+EXPOSE 26657
